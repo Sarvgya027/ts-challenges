@@ -4,5 +4,11 @@
 		"test": "jest",
 		"test:solutions": "cross-env TEST_SOLUTIONS=1 jest",
 		"tsc": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^22.7.4"
+	},
+	"dependencies": {
+		"@jest/globals": "^29.7.0"
 	}
 }
